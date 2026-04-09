@@ -37,8 +37,8 @@ The server runs on http://localhost:8080.
 
 1. Add Transaction
 
-* POST /api/portfolio/transactions
-* Body:
+   * POST /api/portfolio/transactions
+   * Body:
     ```JSON
     {
         "ticker": "AAPL",
@@ -49,18 +49,18 @@ The server runs on http://localhost:8080.
 
 2. Get All Transactions
 
-* GET /api/portfolio/transactions
+   * GET /api/portfolio/transactions
 
 3. Get Portfolio Summary
 
-* GET /api/portfolio/{ticker}/summary
-* Response:
+   * GET /api/portfolio/{ticker}/summary
+   * Response:
     ```JSON
-    {
-        "ticker": "AAPL",
-        "currentShares": 10,
-        "averagePurchasePrice": 150.00
-    }
+       {
+           "ticker": "AAPL",
+           "currentShares": 10,
+           "averagePurchasePrice": 150.00
+       }
 
 ## Database Access
 
