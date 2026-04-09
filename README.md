@@ -1,6 +1,6 @@
 # Stock Portfolio REST API
 
-Backend API for tracking stock market transactions, built with Java 21 and Spring Boot 3. The application implements a FIFO (First-In, First-Out) algorithm to calculate the average purchase price of stocks, accounting for partial position closures.
+Backend API for tracking stock market transactions, built with Java 21 and Spring Boot 3. The application implements a FIFO algorithm to calculate the average purchase price of stocks, accounting for partial position closures.
 
 ## Technologies
 
